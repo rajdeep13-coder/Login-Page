@@ -1,0 +1,122 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set up body */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #1a1a1a; /* Dark background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: linear-gradient(135deg, #333, #444);
+}
+
+/* Login container */
+.login-container {
+    background-color: rgba(0, 0, 0, 0.75);  /* Semi-transparent black */
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+    width: 380px;
+    text-align: center;
+    color: #FFD700; /* Yellow text */
+}
+
+/* Header styling */
+.header h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: #FFD700; /* Yellow text */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.header p {
+    font-size: 16px;
+    margin-bottom: 30px;
+    color: #fff;
+    font-weight: 300;
+}
+
+/* Input field styling */
+.input-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.input-group label {
+    font-size: 14px;
+    color: #FFD700; /* Yellow text for labels */
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 14px;
+    font-size: 16px;
+    border: 1px solid #FFD700; /* Yellow border */
+    border-radius: 6px;
+    background-color: #555; /* Dark background for inputs */
+    color: white;
+    margin-top: 5px;
+    transition: 0.3s ease;
+}
+
+.input-group input:focus {
+    outline: none;
+    border-color: #FFB900; /* Light yellow on focus */
+    background-color: #666;
+}
+
+/* Button styling */
+.login-btn {
+    width: 100%;
+    padding: 14px;
+    background-color: #FFD700;  /* Yellow background for the button */
+    color: #333;  /* Dark text for contrast */
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 15px;
+}
+
+.login-btn:hover {
+    background-color: #FFB900;  /* Slightly darker yellow on hover */
+}
+
+/* Links styling */
+.links {
+    margin-top: 20px;
+}
+
+.links a {
+    text-decoration: none;
+    color: #FFD700;  /* Yellow color for links */
+    font-size: 14px;
+    transition: color 0.3s ease;
+}
+
+.links a:hover {
+    color: #FFB900;  /* Slightly darker yellow on hover */
+}
+
+.links p {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #bbb;  /* Light gray text */
+}
+
+.links p a {
+    color: #FFD700;
+}
+
+.links p a:hover {
+    color: #FFB900;  /* Slightly darker yellow on hover */
+}
